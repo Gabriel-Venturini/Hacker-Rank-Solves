@@ -15,12 +15,10 @@ import sys
 
 def countingSort(arr):
     # Write your code here
-    maxElement = max(arr)
-    result = [0] * (maxElement + 1)
-    
-    for num in arr:
-        result[num] += 1
+    result = [0] * 100
 
+    for i in arr:
+        result[i] += 1
     return result
 
 
